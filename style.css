@@ -158,3 +158,165 @@ h3 {
 .name-col:hover {
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 }
+
+
+/*  Cards css */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    position: relative;
+    width: 360px;
+    height: 450px;
+    border-radius: 15px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.card-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    transition: .5s;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.card-image img {
+    display: block;
+    width: 100%;
+}
+
+.social {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .5s;
+    display: flex;
+    z-index: 3;
+}
+
+.social li {
+    list-style-type: none;
+}
+
+.social li a {
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: #fff;
+    font-size: 24px;
+    color: #333;
+    margin: 0 5px;
+    transition: .5s;
+    transform: translateY(200px);
+    opacity: 0;
+    visibility: hidden;
+}
+
+.detail {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #ffff;
+    width: 100%;
+    height: 120px;
+    z-index: 1;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.detail h2 {
+    margin: 0;
+    color: #333;
+}
+
+.Title {
+    font-size: 1rem;
+    line-height: 2.5rem;
+    color: #333;
+    font-weight: 300;
+}
+
+.card:hover img {
+    opacity: .4;
+    transition: .5s;
+}
+
+.card:hover li a {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+}
+
+.card:hover :nth-last-child(1) a {
+    transition-delay: .1s;
+}
+
+.card:hover :nth-last-child(2) a {
+    transition-delay: .2s;
+}
+
+.card:hover :nth-last-child(3) a {
+    transition-delay: .3s;
+}
+
+.card:hover :nth-last-child(4) a {
+    transition-delay: .4s;
+}
+
+.card:hover .card-image {
+    transform: translateY(-120px);
+    transition: .5s;
+}
+
+.heading {
+    text-transform: uppercase;
+    font-size: 4rem;
+    letter-spacing: 3px;
+    margin-right: -3px;
+    margin-bottom: -3px;
+    text-align: center;
+    color: #160e1a;
+    position: relative;
+}
+
+.heading:after {
+    content: "";
+    width: 12rem;
+    height: .8rem;
+    background-color: #45e19f;
+    position: absolute;
+    bottom: -.4rem;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 2rem;
+}
+
+.card {
+    display: flex;
+    padding: 16%;
+    transform: translateX(auto);
+}
+
+.CARDS {
+    display: flex;
+    padding: 4%;
+    justify-content: space-between;
+}
