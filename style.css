@@ -16,7 +16,7 @@ body {
 
 .hero-section {
     min-height: 100vh;
-    background-image: linear-gradient(rgb(4, 9, 30, 0.7), rgb(4, 9, 30, 0.7)), url(images/bg.jpg);
+    background-image: linear-gradient(rgb(4, 9, 30, 0.7), rgb(4, 9, 30, 0.7)), url(https://raw.githubusercontent.com/Aryan-Srivastava/assets/master/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
