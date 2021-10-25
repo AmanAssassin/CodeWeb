@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Code Editor</title>
+	<link rel="stylesheet" href="codeEditor.css" />
+</head>
+
+<body>
+	<section class="editor">
+		<div class="container">
+			<div class="coder">
+				<div class="code-editor htmlCoder">
+					<div class="code-type">HTML</div>
+					<div class="code html" id="html"></div>
+				</div>
+				<div class="code-editor cssCoder">
+					<div class="code-type">CSS</div>
+					<div class="code css" id="css"></div>
+				</div>
+				<div class="code-editor jsCoder">
+					<div class="code-type">JS</div>
+					<div class="code js" id="js"></div>
+				</div>
+			</div>
+			<div class="output">
+				<iframe src="" class="virtual-iframe" frameborder="0"></iframe>
+			</div>
+		</div>
+	</section>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.12/ace.js"></script>
+	<script src="app.js"></script>
+</body>
+
+</html>
