@@ -43,9 +43,10 @@ body {
     border: 1px solid #fff;
     padding: 12px 34px;
     padding-top: 10px;
-    font-size: 13px;
+    font-size: 17px;
     background: transparent;
     transition: opacity 250ms linear;
+    width: 14%;
 }
 
 .button:hover {
