@@ -74,6 +74,14 @@ h1 {
     font-size: 18px;
 }
 
+.fa-github {
+    padding: 10px;
+}
+
+.fa-instagram {
+    padding-right: 10px;
+}
+
 button {
     border: none;
     padding: 8px;
