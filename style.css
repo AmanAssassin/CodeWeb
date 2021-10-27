@@ -23,6 +23,8 @@ body {
     position: relative;
     z-index: 2;
     animation: slide 1s ease-in-out;
+    box-sizing: border-box;
+    justify-content: center;
 }
 
 .navbar {
@@ -49,6 +51,7 @@ body {
     transition: opacity 250ms linear;
     width: 34vh;
     justify-content: center;
+    box-sizing: border-box;
 }
 
 .button:hover {
@@ -181,8 +184,29 @@ h3 {
     cursor: pointer;
     transition: .5s;
     width: 20%;
+    height: 20%;
     float: left;
     padding: 10px 5px;
+    margin: 30px 0;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width:500px) {
+    .card {
+        width: 50%;
+        height: 100%;
+        max-height: 300px;
+        min-height: 200px;
+        display: block;
+        box-sizing: content-box;
+        grid-gap: 0rem;
+    }
 }
 
 .card-image {
@@ -209,7 +233,7 @@ h3 {
     transform: translate(-50%, -50%);
     transition: .5s;
     display: flex;
-    z-index: 3;
+    z-index: 2;
     padding: auto;
     justify-content: center;
     text-align: center;
@@ -254,23 +278,26 @@ h3 {
 }
 
 .detail h2 {
-    margin: 0;
-    color: #333;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    color: rgb(161, 25, 25);
 }
 
 .Title {
-    font-size: 1rem;
-    line-height: 2.5rem;
-    color: #333;
+    font-size: 0.9rem;
+    line-height: 2.8rem;
+    color: rgb(36, 135, 46);
     font-weight: 300;
+    margin-bottom: 0%;
+    padding-bottom: 30%;
+    padding-top: 0%;
 }
 
 .card:hover img {
     opacity: .4;
     transition: .5s;
 }
-                
-       /* change by mmd--> boreder radious & shadow added */
+
 .card:hover li a {
     border-radius: 10px;
     box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.2);
