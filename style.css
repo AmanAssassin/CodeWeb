@@ -269,8 +269,11 @@ h3 {
     opacity: .4;
     transition: .5s;
 }
-
+                
+       /* change by mmd--> boreder radious & shadow added */
 .card:hover li a {
+    border-radius: 10px;
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.2);
     transform: translateY(0);
     opacity: 1;
     visibility: visible;
