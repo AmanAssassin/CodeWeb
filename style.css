@@ -110,7 +110,7 @@ body {
 }
 
 .hero-text p {
-    font-size: 3rem;
+    font-size: 1.3rem;
 }
 
 
@@ -285,7 +285,7 @@ h3 {
 
 .Title {
     font-size: 0.9rem;
-    line-height: 2.8rem;
+    line-height: 0.7rem;
     color: rgb(36, 135, 46);
     font-weight: 300;
     margin-bottom: 0%;
