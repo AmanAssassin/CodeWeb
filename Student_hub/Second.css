@@ -28,7 +28,7 @@ body {
 }
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
     /* max-width: 300px; */
     width: 300px;
     margin: auto;
@@ -36,7 +36,7 @@ body {
     min-height: 400px;
     background-color: white;
     text-align: center;
-    border-radius: 40px;
+    border-radius: 30px;
     padding-bottom: 10px;
     justify-content: space-between;
     align-items: center;
@@ -53,8 +53,10 @@ body {
 h1 {
     max-height: 10px;
 }
-
+         /* change by mmd--> adjusted mrgin to avoid content out of the card bound */
 .title {
+    margin-top: 16px;
+    margin-bottom: 16px;
     padding-top: 10px;
 }
 
@@ -105,7 +107,9 @@ a:hover,
 button:hover {
     opacity: 0.6;
 }
-
+   /* change by mmd--> adjusted mrgin to avoid content out of the card bound */
 p {
+    margin-top: 10px;
+    margin-bottom: 10px;
     justify-content: center;
 }
