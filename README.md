@@ -83,43 +83,27 @@ git checkout -b <your_branch_name>
 
 ```terminal
 
- <!-- -------------------------------------------------------------------------------------------------------------------------- -->
+  <!-- --------------------------------------------------------------------------------------------------------------------------------- -->
 
-        <div class="card">
-            <div class="card-image">
-                <img src="(image url from user' github)">
-            </div>
-            <ul class="social">
-                <li>
-                    <a href="Linkedin url" target="_blank">
-                        <i class='bx bxl-linkedin'></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="Github url" target="_blank">
-                        <i class='bx bxl-github'></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="Instagram url" target="_blank">
-                        <i class='bx bxl-instagram-alt'></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="Twitter url" target="_blank">
-                        <i class='bx bxl-twitter'></i>
-                    </a>
-                </li>
-            </ul>
-            <div class="detail">
-                <h2>Aryan Srivastava</h2>
-                <span class="Title">Java Developer</span>
+
+        <div class="column">
+            <div class="card">
+                <img class="set" src="image url " style="width:200px;height:200px;margin-top:10px">
+
+                <h1> Your name  </h1>
+                <p class="title">Designation</p>
+                <p>B.tech CSE 3rd year </p> 
+                <a href="Linkedin url" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+                <a href="Github url" target="_blank"><i class="fa fa-github"></i></a>
+                <a href="Instagram url" target="_blank"><i class="fa fa-instagram"></i></a>
+                <a href="Twitter url" target="_blank"><i class="fa fa-twitter"></i></a>
+
             </div>
         </div>
 
 
+        <!-- --------------------------------------------------------------------------------------------------------------------------------- -->
 
-        <!-- ---------------------------------------------------------------------------------------------------------------------------------------- -->
 
 ``` 
 
