@@ -78,7 +78,8 @@ git checkout -b <your_branch_name>
 ## Steps when updating
     1. After cloning the repository goto second.html file
     2. copy the below code :-
-    3. If problem in understanding see the code already present in the second.html and then paste code below already present
+    3. If problem in understanding see the code already present in the second.html 
+       and then paste code below already present
 
 ```terminal
 
