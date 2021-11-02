@@ -1,8 +1,8 @@
-#                💻 "Coder-Man"      💻
+#                💻 "Coder-Man" 
 
 This repository contains , The project i.e. Web-Site using Html , Css , JavaScript. 
 
-If you like what you doo leave a star to the repository.
+If you like what you see do follow us , and leave a star to the repository.
 
 
 
@@ -16,20 +16,23 @@ If you like what you doo leave a star to the repository.
 
 
 
+# Overview
+
+* CodeWeb is a social development environment for front-end designers and developers. Build and deploy a website, show off your work, and to learn and debug, and find inspiration.
+
+*   The main aim of the project is to bring to bring all students to have a place where all can connect to each other. 
+
+### Features
+- Write, run and test HTML, CSS and JavaScript code online on  [CodeWeb](https://amanassassin.github.io/Web-Development/code_editor/codeEditor.html)
+- Connect to each other on  [Student Hub](https://amanassassin.github.io/Web-Development/Student_hub/Second.html)
+
 
 #           💻Project Admins :-
 
-###    ➡️ Aman Maurya
+ - [Aman Maurya](https://www.linkedin.com/in/aman-maurya73/)
+ - [Aryan Srivastava](https://www.linkedin.com/in/aryan-srivastava-08032003/)
+ - [Manmohan Dwivedi](https://www.linkedin.com/in/manmohan-dwivedi-a7662b1ab/)
 
-###    ➡️ Aryan Srivastava
-
-###    ➡️ Manmohan Dwivedi
-
-
-
-# Overview
-
-*   The main aim of the project is to bring to bring all students to have a place where all can connect to each other. 
 
 # Contributing
 
@@ -80,8 +83,10 @@ git checkout -b <your_branch_name>
     2. copy the below code :-
     3. If problem in understanding see the code already present in the second.html 
        and then paste code below already present
+    4. P.S. :- ( Dont't Change any class or any other thing just change your
+       details as mentioned )  
 
-```terminal
+```html
 
   <!-- --------------------------------------------------------------------------------------------------------------------------------- -->
 
@@ -142,23 +147,22 @@ git push -u origin <your_branch_name>
  In case of any help, please free to contact me via mail :- 
  
  
-amanmaurya112233@gmail.com <br>
-aryan.srivastava114@gmail.com<br>
-manmohandwivedi11@gmail.com
+# Support
+#### For more help feel free to contact us :-
 
-
+ ##### [ amanmaurya112233@gmail.com ](https://mail.google.com/mail/u/0/#inbox?compose=new )
  
+ ##### [ aryan.srivastava114@gmail.com ](https://mail.google.com/mail/u/0/#inbox?compose=new )
+ 
+ ##### [ manmohandwivedi11@gmail.com ](https://mail.google.com/mail/u/0/#inbox?compose=new )
 
 
-
-
-	
 
 # Project Maintainers 😃
 
 <table>
   <tbody><tr>
-    <td align="center"><a href="https://github.com/AmanAssassin"><img alt="" src="https://github.com/AmanAssassin.png" width="130px;"><br><sub><b>
+    <td align="center" ><a href="https://github.com/AmanAssassin"><img alt="" src="https://github.com/AmanAssassin.png" width="130px;"><br><sub><b>
  Aman Maurya </b></sub></a><br>💻 
 
  <td align="center"><a href="https://github.com/Aryan-Srivastava"><img alt="" src="https://github.com/Aryan-Srivastava.png" width="130px;"><br><sub><b>
@@ -166,16 +170,8 @@ Aryan Srivastava</b></sub></a><br>💻
 
  <td align="center"><a href="https://github.com/Manmohan11"><img alt="" src="https://github.com/Manmohan11.png" width="130px;"><br><sub><b>
 Aryan Srivastava</b></sub></a><br>💻 
-
-   
   </tr>
 </tbody></table>
-
-	
-
-
-    
-
-
 <br>
+
 <h1 align=center>Happy Coding 👨‍💻 </h1>
