@@ -1,4 +1,4 @@
-#                💻 "Coder-Man" 
+#                💻 "Coder-Web" 
 
 This repository contains , The project i.e. Web-Site using Html , Css , JavaScript. 
 
@@ -173,5 +173,11 @@ Aryan Srivastava</b></sub></a><br>💻
   </tr>
 </tbody></table>
 <br>
+
+### License
+
+All linceses & copyrights are reserved to the [Team](https://amanassassin.github.io/Web-Development/)
+
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/AmanAssassin/Web-Development/blob/cf381b6e2d406626ede426fc1a7c9900ffdf3515/LICENSE)
 
 <h1 align=center>Happy Coding 👨‍💻 </h1>
