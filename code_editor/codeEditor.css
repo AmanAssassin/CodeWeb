@@ -34,7 +34,7 @@ body {
 }
 
 .code-type {
-	color: whitesmoke;
+	color: rgb(255, 255, 255);
 	font-family: "Roboto", sans-serif;
 	height: fit-content;
 	width: 100%;
@@ -43,10 +43,15 @@ body {
 	border-bottom: 1px solid #333642;
 }
 
+.code-type {
+	border-radius: 10px 10px 0 0;
+}
+
 .code {
 	background-color: #1d1e22;
 	width: 100%;
 	height: 100%;
+	border-radius: 0 0 10px 10px;
 }
 
 .ace_gutter {
@@ -58,7 +63,8 @@ body {
 }
 
 .output {
-	background-color: #ffff;
+	background-color: rgb(255, 255, 255);
+	border-radius: 8px;
 }
 
 .virtual-iframe {
