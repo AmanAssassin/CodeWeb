@@ -52,8 +52,13 @@ body {
 
 h1 {
     max-height: 10px;
+    font-size: 3.2vmin;
+    /* min length set */
 }
-         /* change by mmd--> adjusted mrgin to avoid content out of the card bound */
+
+
+/* change by mmd--> adjusted mrgin to avoid content out of the card bound */
+
 .title {
     margin-top: 16px;
     margin-bottom: 16px;
@@ -107,7 +112,10 @@ a:hover,
 button:hover {
     opacity: 0.6;
 }
-   /* change by mmd--> adjusted mrgin to avoid content out of the card bound */
+
+
+/* change by mmd--> adjusted mrgin to avoid content out of the card bound */
+
 p {
     margin-top: 10px;
     margin-bottom: 10px;
