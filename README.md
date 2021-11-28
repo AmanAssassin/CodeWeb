@@ -18,12 +18,12 @@ If you like what you see do follow us , and leave a star to the repository.
 
 # Overview
 
-* CodeWeb is a social development environment for front-end designers and developers. Build and deploy a website, show off your work, and to learn and debug, and find inspiration.
+* CodeWeb is a social development environment for front-end designers and developers. Build a website, show off your work, learn, and find inspiration.
 
 *   The main aim of the project is to bring to bring all students to have a place where all can connect to each other. 
 
 ### Features
-- Write, run and test HTML, CSS and JavaScript code online on  [CodeWeb](https://amanassassin.github.io/Web-Development/code_editor/codeEditor.html)
+- Write, run HTML, CSS and JavaScript code online on  [CodeWeb](https://amanassassin.github.io/Web-Development/code_editor/codeEditor.html)
 - Connect to each other on  [Student Hub](https://amanassassin.github.io/Web-Development/Student_hub/Second.html)
 
 
