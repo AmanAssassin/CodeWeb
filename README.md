@@ -18,7 +18,7 @@ If you like what you see do follow us , and leave a star to the repository.
 
 # Overview
 
-* CodeWeb is a social development environment for front-end designers and developers. Build a website, show off your work, and to learn and debug, and find inspiration.
+* CodeWeb is a social development environment for front-end designers and developers. Build a website, show off your work, learn, and find inspiration.
 
 *   The main aim of the project is to bring to bring all students to have a place where all can connect to each other. 
 
