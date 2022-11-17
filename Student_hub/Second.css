@@ -17,12 +17,28 @@ section {
     align-items: stretch;
 }
 
+
+/* #student {
+    background-image: url(bg.jpg);
+    position: relative;
+} */
+
+html {
+    background: url(bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 .student-card {
-    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2);
     justify-content: space-between;
     padding: 1em;
-    border: 1px solid var(--border-color);
+    border-color: black;
+    border: 5px solid var(--border-color);
     border-radius: 5px;
+    backdrop-filter: blur(80px);
 }
 
 .student-card img {
@@ -53,6 +69,7 @@ section {
     font-size: 20px;
     text-overflow: ellipsis;
     font-size: clamp(20px, 3vw, 24px);
+    color: rgb(248, 248, 248);
 }
 
 .student-bio {
@@ -77,15 +94,15 @@ a {
     margin: .4em;
     text-decoration: none;
     font-size: 22px;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 a:hover {
-    color: #DC5F00;
+    color: #4c2cc3;
 }
 
 .student-tech {
-    background-color: #4242425e;
+    background-color: #ba51d7f3;
     width: fit-content;
     padding: 0.4em 1em;
     margin: 1em 0 .5em 0;
@@ -94,5 +111,5 @@ a:hover {
 }
 
 .more-info-link:hover {
-    background-color: #42424285;
+    background-color: #ffffffb9;
 }
