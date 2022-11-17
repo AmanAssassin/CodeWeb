@@ -11,7 +11,11 @@ If you like what you see do follow us , and leave a star to the repository.
 
 ![codeweb editor](https://user-images.githubusercontent.com/68139593/194764022-6d9b6745-6f6d-44aa-a621-3e5ae2fe45a0.png)
 
-![codeweb devcard](https://user-images.githubusercontent.com/68139593/194764092-857ac37a-ba0d-4649-9a75-59782d09ad34.png)
+![Student hub](https://user-images.githubusercontent.com/64511985/202524787-6aafc626-8ed0-4058-ba22-03179f56f6a0.png)
+
+
+
+
    
 
  <p align="center">
